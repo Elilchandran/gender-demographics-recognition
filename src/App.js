@@ -60,7 +60,7 @@ displayGenderInfo = (genderInfo) => {
     this.callClarifaiAPI(input, MODEL_FACE_ID, MODEL_FACE_VERSION_ID, this.calculateFace);
 
     // Gender Detection
-    this.callClarifaiAPI(
+    this.callClarifaiAPI( 
       input,
       MODEL_GENDER_ID,
       MODEL_GENDER_VERSION_ID,

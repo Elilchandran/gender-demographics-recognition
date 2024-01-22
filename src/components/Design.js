@@ -1,14 +1,12 @@
 import { useCallback } from "react";
 import Particles from "react-particles";
-import '../App.css'
-//import { loadFull } from "tsparticles";
 import { loadSlim } from "tsparticles-slim";
 
 
 
 function Design() {
     const particlesInit = useCallback(async engine => {
-        // console.log(engine); //done
+         //console.log(engine); //done
         // you can initiate the tsParticles instance (engine) here, adding custom shapes or presets
         // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
         // starting from v2 you can add only the features you need reducing the bundle size
@@ -17,7 +15,7 @@ function Design() {
     }, []);
 
     const particlesLoaded = useCallback(async container => {
-        //await console.log(container);  //done
+         console.log(container);  //done
     }, []);
 
   return (
